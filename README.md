@@ -1,6 +1,11 @@
 esp32_can
 ==========
 
+Forked from CollinKidder's execellent library. 
+I've modified the pins on here to be used for voltlog canlite. 
+
+This allows referring to this library in platformIO.
+
 A new, unified library all inclusive of code needed to make it operate. Implements
 a CAN driver for the built-in CAN hardware on an ESP32. Also implements a driver
 for the MCP2517FD SPI connected CAN module. The builtin CAN is called CAN0,
